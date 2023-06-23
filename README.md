@@ -58,5 +58,13 @@
 #### 평가지표
 ![image](https://github.com/soonhp/master_thesis-CF_Improved_Jaccard_Develop_Version/assets/73877159/7cc11118-4155-4c29-8af9-08abf6b5736a)
 
+#### 실험 결과
+1) 제안 유사도 별 최적의 파라미터
+   ![image](https://github.com/soonhp/master_thesis-CF_Improved_Jaccard_Develop_Version/assets/73877159/0c288efb-2c38-4a8d-8c12-eca907144c43)
+
+2) 제안 유사도 별 사전 실험
+   - RJAC_DUB와 RJAC_DZ의 S점수
+     ![image](https://github.com/soonhp/master_thesis-CF_Improved_Jaccard_Develop_Version/assets/73877159/7902376c-a95e-4ba7-912f-cd14a98e9434)
+
 
 
