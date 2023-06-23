@@ -63,7 +63,7 @@
    
    ![image](https://github.com/soonhp/master_thesis-CF_Improved_Jaccard_Develop_Version/assets/73877159/0c288efb-2c38-4a8d-8c12-eca907144c43)
 
-3) 제안 유사도 별 사전 실험
+2) 제안 유사도 별 사전 실험
    - RJAC_DUB와 RJAC_DZ의 S점수
      ![image](https://github.com/soonhp/master_thesis-CF_Improved_Jaccard_Develop_Version/assets/73877159/7902376c-a95e-4ba7-912f-cd14a98e9434)
      - Rating_Jaccard의 세 번째 한계점을 해결하기 위해 RJAC_DUB, RJAC_DZ 제안.
@@ -78,6 +78,8 @@
    ![image](https://github.com/soonhp/master_thesis-CF_Improved_Jaccard_Develop_Version/assets/73877159/3758870d-2c95-4811-bb91-12c5fdfe367b)
 
 
-3) 타 유사도와 성능 비교
+4) 타 유사도와 성능 비교
+
+  ![image](https://github.com/soonhp/master_thesis-CF_Improved_Jaccard_Develop_Version/assets/73877159/2acd9bf8-96ee-40fc-a085-2678a035e245)
 
 
