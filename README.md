@@ -1,4 +1,4 @@
-![image](https://github.com/soonhp/master_thesis-CF_Improved_Jaccard_Develop_Version/assets/73877159/68b63e1b-55b2-4e0a-9068-370e4d3a7067)# master_thesis-CF_Improved_Jaccard_Develop_Version(Paper_Code)
+# master_thesis-CF_Improved_Jaccard_Develop_Version(Paper_Code)
 
 # 석사학위논문
 ## 연구주제 : 평점을 고려한 개선된 자카드 유사도 기반 사용자 협업필터링 추천시스템
