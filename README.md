@@ -80,9 +80,11 @@
 
 4) 타 유사도와 성능 비교
    - MAE
+     
    ![image](https://github.com/soonhp/master_thesis-CF_Improved_Jaccard_Develop_Version/assets/73877159/0b1fff98-b2f4-4fd8-b976-60bf74e3a608)
 
    - F1
+     
    ![image](https://github.com/soonhp/master_thesis-CF_Improved_Jaccard_Develop_Version/assets/73877159/2acd9bf8-96ee-40fc-a085-2678a035e245)
 
 
