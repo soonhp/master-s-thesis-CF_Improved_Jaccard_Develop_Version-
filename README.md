@@ -30,11 +30,12 @@
 #### RSC(Extended Version)
 - 이전의 제안 방법론들은 공통항목의 수를 고려하지 않는 한계가 있음.
 - 공통항목 중에 유사한 항목이 어느 정도인지 비율을 반영하는 개선된 유사도 제안
-- 제안 유사도별로 각각 가중치를 부여 → RJAC_DUB 예시 :  (〖|𝑵_𝑻𝑫𝑼𝑩 (𝒂,𝒃)|/|𝑰_𝒂∩𝑰_𝒃 | )〗^(𝟏/𝟐)
+- 제안 유사도별로 각각 가중치를 부여 → RJAC_DUB 예시 :  (|𝑵_𝑻𝑫𝑼𝑩 (𝒂,𝒃)|/|𝑰_𝒂∩𝑰_𝒃 | )^(𝟏/𝟐)
 - 가중치 term에 𝟏/𝟐 제곱을 하는 이유 : 사용자 간 공통항목이 매우 많은 경우 가중치가 지나치게 감소할 수 있으므로 보정을 해주기 위함.
 - 공통항목의 수와 유사하다고 판단되는 항목의 수를 모두 반영하는 유사도
 - 본 연구에서는 이것을 RSC(ratio of similar items among co-rated items) 로 명명.
 - RJAC_DUB 예시)
+![image](https://github.com/soonhp/master_thesis-CF_Improved_Jaccard_Develop_Version/assets/73877159/fc4bc1dd-294a-4f08-a39a-7b1e3d8f6262)
 
 
 
