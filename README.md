@@ -72,6 +72,10 @@
    - 확장된 제안 방법론 : RSC, RCT
      - RSC와 RCT는 사전 실험을 통해 제안 유사도 방법론들 중에서 RJAC_DUB와 결합하는 것이 성능이 가장 좋다는 것을 확인함.
      - RJAC_DUB_RSC와 RJAC_DUB_RCT를 확장된 유사도 방법론으로 제안.
+    
+3) 제안 방법론 별 성능 비교
+   
+   ![image](https://github.com/soonhp/master_thesis-CF_Improved_Jaccard_Develop_Version/assets/73877159/3758870d-2c95-4811-bb91-12c5fdfe367b)
 
 
 
