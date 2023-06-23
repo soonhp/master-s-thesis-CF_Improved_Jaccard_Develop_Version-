@@ -1,9 +1,9 @@
 # master_thesis-CF_Improved_Jaccard_Develop_Version(Paper_Code)
 
-## 석사학위논문
-### 연구주제 : 평점을 고려한 개선된 자카드 유사도 기반 사용자 협업필터링 추천시스템
+# 석사학위논문
+## 연구주제 : 평점을 고려한 개선된 자카드 유사도 기반 사용자 협업필터링 추천시스템
 
-### 연구동기
+## 연구동기
 #### Rating_Jaccard
 
 - Rating_Jaccard는 두 사용자 간의 평점이 같은 항목의 개수를 두 사용자가 같이 평가한 항목의 비율로 구하는데 이로 인해 한계점들이 발생.
@@ -17,7 +17,7 @@
 - 본 연구에서는 이러한 한계점들을 해결하기 위한 새로운 유사도 제안. 더 나아가 제안 방법에서 발생한 한계에 대해서도 공통항목의 수를 고려하는 확장된 방법을 제안하여 해결하고자 한다.  
 - Park, S. H., & Kim, K. (2023). Collaborative filtering recommendation system based on improved Jaccard similarity. Journal of Ambient Intelligence and Humanized Computing, 1-18. -> 본 논문을 develop한 연구.
 
-### 제안방법(기존 논문에서 추가된 내용)
+## 제안방법(기존 논문에서 추가된 내용)
 #### RJAC_DZ(Rating_Jaccard의 세번째 한계점)
 - RJAC_DUB에서 확장하여 사용자별 표준편차를 반영하는 유사도 제안.
   - 각 사용자의 평점과 평균평점의 차이를 표준편차로 나눠주면 Z-SCORE가 됨.
@@ -47,5 +47,15 @@
 - RJAC_DUB 예시)
 ![image](https://github.com/soonhp/master_thesis-CF_Improved_Jaccard_Develop_Version/assets/73877159/f19fc53c-801f-4265-b65b-afc7985495e5)
 
+## 실험설계 및 결과
+
+#### 데이터
+- 본 연구에서는 추천시스템 영역에서 자주 쓰이는 데이터셋인 CiaoDVD, Filmtrust, MovieLens100k, MovieLens1M, Amazon, Netflix의 총 6가지의 공개 데이터셋에 대해 성능을 비교 검증.
+- 최소 20개 이상 아이템을 평가한 사용자들을 대상으로 데이터셋을 구성하는 것이 일반적이기 때문에 데이터셋 재구성함.
+- 모든 데이터셋의 평점 범위를 1~5점으로 설정하기 위해 범위가 다른 데이터셋의 경우 scaling 진행.
+- 데이터셋에 대해 학습데이터 셋 80%, 검증 데이터셋 20%로 stratified five fold cross−validation 를 수행하여 실험을 진행하고 평균 결과를 제시
+
+#### 평가지표
+![image](https://github.com/soonhp/master_thesis-CF_Improved_Jaccard_Develop_Version/assets/73877159/396b08ae-2037-4f9a-8390-39774b3b1e27)
 
 
