@@ -66,6 +66,14 @@
 3) 제안 유사도 별 사전 실험
    - RJAC_DUB와 RJAC_DZ의 S점수
      ![image](https://github.com/soonhp/master_thesis-CF_Improved_Jaccard_Develop_Version/assets/73877159/7902376c-a95e-4ba7-912f-cd14a98e9434)
+     - Rating_Jaccard의 세 번째 한계점을 해결하기 위해 RJAC_DUB, RJAC_DZ 제안.
+     - 두 방법론 간의 성능 비교 결과 모든 데이터셋에서 RJAC_DUB의 성능이 좋음.
+     - 사용자별 평점의 편향과 분포를 같이 반영하는 것보다는 평점의 편향만을 반영하는 것이 성능향상에 더 큰 요인임. -> 따라서 Rating_Jaccard의 세 번째 한계점을 해결하는 방법론으로 RJAC_DUB 선정
+   - 확장된 제안 방법론 : RSC, RCT
+     - RSC와 RCT는 사전 실험을 통해 제안 유사도 방법론들 중에서 RJAC_DUB와 결합하는 것이 성능이 가장 좋다는 것을 확인함.
+     - RJAC_DUB_RSC와 RJAC_DUB_RCT를 확장된 유사도 방법론으로 제안.
+
+
 
 
 
