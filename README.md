@@ -78,6 +78,6 @@
    ![image](https://github.com/soonhp/master_thesis-CF_Improved_Jaccard_Develop_Version/assets/73877159/3758870d-2c95-4811-bb91-12c5fdfe367b)
 
 
-
+3) 타 유사도와 성능 비교
 
 
