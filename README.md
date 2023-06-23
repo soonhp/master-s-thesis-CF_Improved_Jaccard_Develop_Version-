@@ -37,5 +37,15 @@
 - RJAC_DUB 예시)
 ![image](https://github.com/soonhp/master_thesis-CF_Improved_Jaccard_Develop_Version/assets/73877159/fc4bc1dd-294a-4f08-a39a-7b1e3d8f6262)
 
+#### RCT(Extended Version)
+- 이전의 제안 방법론들은 공통항목의 수를 고려하지 않는 한계가 있음.
+- 전체 아이템 중에 공통항목이 어느 정도인지 비율을 반영하는 개선된 유사도 제안
+- 제안 유사도별로 가중치를 부여 → |𝑰_𝒂∩𝑰_𝒃 |/|𝑰|
+- 공통항목을 그대로 반영하기 보다는 전체 아이템의 수(|𝑰|)로 normalize.
+- 공통항목의 수와 유사하다고 판단되는 항목의 수를 모두 반영하는 유사도
+- 본 연구에서는 이것을 RCT(ratio of co-rated items among total items) 로 명명.
+- RJAC_DUB 예시)
+![image](https://github.com/soonhp/master_thesis-CF_Improved_Jaccard_Develop_Version/assets/73877159/f19fc53c-801f-4265-b65b-afc7985495e5)
+
 
 
