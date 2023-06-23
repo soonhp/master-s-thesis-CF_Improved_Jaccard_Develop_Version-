@@ -22,7 +22,8 @@
 - 자카드 유사도의 성능은 두 사용자가 같이 평가한 항목과 비례관계인데 Rating_Jaccard의 수식에서는 반비례관계가 된다. → 사용자가 평가한 모든 아이템을 반영하는 개선된 유사도를 제안.
 - Rating_jaccard 수식 내에서 분모에 두 사용자가 공통으로 평가한 항목의 수(교집합) 대신 두 사용자가 평가한 모든 항목의 수(합집합)로 변경.
 - 본 연구에서는 이것을 RJAC_U(Rating jaccard with Union)로 명명.
-![image](https://github.com/soonhp/master_thesis-CF_Improved_Jaccard_Develop_Version/assets/73877159/0d5f45a7-1b19-4b67-866a-eaa2208252fc)
+![image](https://github.com/soonhp/master_thesis-CF_Improved_Jaccard_Develop_Version/assets/73877159/e257f961-51df-4954-9315-b31e7f7c69fa)
+
 
 
 
