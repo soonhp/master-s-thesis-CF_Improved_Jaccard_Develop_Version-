@@ -25,6 +25,6 @@
   - RJAC_DUB와 달리 사용자별 평점의 편향과 분포를 동시에 반영.
 - 본 연구에서는 이것을 RJAC_DZ(Rating_Jaccard allowing a small difference in ratings’ z_score considering user biases)로 명명.
   
-![image](https://github.com/soonhp/master_thesis-CF_Improved_Jaccard_Develop_Version/assets/73877159/61c5b467-c2a5-4b60-929c-60a28386aadd)
+![image](https://github.com/soonhp/master_thesis-CF_Improved_Jaccard_Develop_Version/assets/73877159/4080ee60-fcbc-4b43-aecd-959d921e4a17)
 
 
