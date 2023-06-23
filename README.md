@@ -56,6 +56,7 @@
 - 데이터셋에 대해 학습데이터 셋 80%, 검증 데이터셋 20%로 stratified five fold cross−validation 를 수행하여 실험을 진행하고 평균 결과를 제시
 
 #### 평가지표
-![image](https://github.com/soonhp/master_thesis-CF_Improved_Jaccard_Develop_Version/assets/73877159/396b08ae-2037-4f9a-8390-39774b3b1e27)
+![image](https://github.com/soonhp/master_thesis-CF_Improved_Jaccard_Develop_Version/assets/73877159/7cc11118-4155-4c29-8af9-08abf6b5736a)
+
 
 
