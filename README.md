@@ -16,3 +16,12 @@
 
 - 본 연구에서는 이러한 한계점들을 해결하기 위한 새로운 유사도 제안. 더 나아가 제안 방법에서 발생한 한계에 대해서도 공통항목의 수를 고려하는 확장된 방법을 제안하여 해결하고자 한다.  
 - Park, S. H., & Kim, K. (2023). Collaborative filtering recommendation system based on improved Jaccard similarity. Journal of Ambient Intelligence and Humanized Computing, 1-18. -> 본 논문을 develop한 연구.
+
+### 제안방법
+#### Rating_Jaccard의 세번째 한계점
+- RJAC_DUB에서 확장하여 사용자별 표준편차를 반영하는 유사도 제안.
+    ◎ 각 사용자의 평점과 평균평점의 차이를 표준편차로 나눠주면 Z-SCORE가 됨.
+    ◎ Z-SCORE 간의 차이에 절대값을 씌운 값이 𝑻𝑯 이하인 항목의 수를 두 사용자가 평가한 모든 항목의 수로 나눠줌.
+    ◎ RJAC_DUB와 달리 사용자별 평점의 편향과 분포를 동시에 반영.
+- 본 연구에서는 이것을 RJAC_DZ(Rating_Jaccard allowing a small difference in ratings’ z_score considering user biases)로 명명.
+- 
